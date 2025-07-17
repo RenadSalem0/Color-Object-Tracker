@@ -37,8 +37,11 @@ python tracker = ColorTracker(0)
 Press P to pause/resume
 
 Press Q to quit
+## 📸 Example Outputs
 
-## 📸Example Outputs
+Tracking a red object in video 1  
+![Example 1](Screenshot129.png)
 
-Tracking a red object in video 1
-Tracking a red object in video 2
+Tracking a red object in video 2  
+![Example 2](Screenshot133.png)
+
