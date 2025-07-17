@@ -35,6 +35,7 @@ python tracker = ColorTracker(0)
 ```
 ## Controls
 Press P to pause/resume
+
 Press Q to quit
 
 ## 📸Example Outputs
