@@ -40,8 +40,8 @@ Press Q to quit
 ## 📸 Example Outputs
 
 Tracking a red object in video 1  
-![](Screenshot129.png)
+![](Screenshot(129).png)
 
 Tracking a red object in video 2  
-![](Screenshot133.png)
+![](Screenshot(133).png)
 
