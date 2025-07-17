@@ -31,12 +31,11 @@ python color_tracker.py
 ```
 To use the webcam instead of a video file:
 Open color_tracker.py in a text editor, find the part where the tracker is initialized (near the bottom), and change this line:
-python
+```bash
 tracker = ColorTracker("color.mp4")
 to
-python
 tracker = ColorTracker(0)
-
+```
 ## Customization
 Modify the color range in color_tracker.py:
 ```bash
