@@ -24,7 +24,7 @@ This project tracks the largest object of a specified color (e.g., red) in a vid
 ```bash
 pip install opencv-python numpy
 ```
-🚀 Usage
+## 🚀 Usage
 Run the tracker:
 ```bash
 python color_tracker.py
@@ -32,6 +32,16 @@ python color_tracker.py
 To use webcam instead of video file:
 ```bash
 python tracker = ColorTracker(0)
+```
+## Customization
+Modify the color range in color_tracker.py:
+```bash
+python
+# For red color detection
+self.lower_color1 = np.array([0, 120, 70])
+self.upper_color1 = np.array([10, 255, 255])
+self.lower_color2 = np.array([170, 120, 70])
+self.upper_color2 = np.array([180, 255, 255])
 ```
 ## Controls
 Press P to pause/resume
